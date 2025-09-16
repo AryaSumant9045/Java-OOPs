@@ -8,7 +8,7 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 write enter when asking for file name and when asking for passphase 
 
 2. abb windows powershell kholl in as adminstration (ye dono commnad challa de ):
-## start the ssh-agent in the background
+//start the ssh-agent in the background
 Get-Service -Name ssh-agent | Set-Service -StartupType Manual
 Start-Service ssh-agent
 ssh-add $env:USERPROFILE\.ssh\id_rsa
