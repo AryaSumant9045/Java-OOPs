@@ -32,5 +32,5 @@ git commit -m "Auto update: $(date '+%Y-%m-%d %H:%M:%S')"
 git push origin main
 
 chmod +x auto_push.sh
- ./auto_push.sh
+./auto_push.sh
 
