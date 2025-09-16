@@ -1,4 +1,7 @@
-## This is lesson how you can add ssh key and 
+#### This is lesson how you can add ssh key and continue with git with live updating ####
+
+
+
 1. nyii shh keys banana (in git bash):
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
