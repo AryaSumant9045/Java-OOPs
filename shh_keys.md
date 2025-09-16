@@ -1,3 +1,4 @@
+## This is lesson how you can add ssh key and 
 1. nyii shh keys banana (in git bash):
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
